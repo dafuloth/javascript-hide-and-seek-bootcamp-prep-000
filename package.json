@@ -20,6 +20,7 @@
   "bugs": {
     "url": "https://github.com/learn-co-curriculum/java-script-hide-and-seek/issues"
   },
+
   "homepage": "https://github.com/learn-co-curriculum/java-script-hide-and-seek#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
