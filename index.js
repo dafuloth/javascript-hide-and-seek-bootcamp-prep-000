@@ -21,6 +21,6 @@ function increaseRankBy(n) {
   for (var i = 0; i < rankedLi.length; i++) {
     //rankedLi[i].innerText = parseInt(rankedLi.innerHTML) + parseInt(n)
     let rank = parseInt(rankedLi[i].textContent)
-    rank = rank + parseInt(n)
+    +rankedLi[i].textContent = rank + parseInt(n)
   }
 }
