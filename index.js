@@ -23,6 +23,7 @@ function increaseRankBy(n) {
     let rank = parseInt(rankedLi[i].textContent)
     rank = rank + parseInt(n)
 
+    // Preserve type as number. Only assign to .textContent when done!
     rankedLi[i].textContent = rank
   }
 }
